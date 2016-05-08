@@ -19,7 +19,7 @@ import javax.swing.event.*; // ChangeListener, ChangeEvent
 public class FontViewer extends JFrame {
   
   // instance variables
-  private JComboBox fontMenu;
+  private JComboBox<String> fontMenu;
   private JCheckBox italicCheckbox, boldCheckbox;
   private JSlider sizeSlider;
   private JLabel sizeLabel, sizeWord, textLabel;
@@ -102,7 +102,7 @@ public class FontViewer extends JFrame {
     this.italicCheckbox = new JCheckBox("ITALIC");
     GraphicsEnvironment env = GraphicsEnvironment.getLocalGraphicsEnvironment();
     String[] fontNames = env.getAvailableFontFamilyNames();
-    this.fontMenu = new JComboBox(fontNames);
+    this.fontMenu = new JComboBox<String>(fontNames);
     
     
     // adding components
