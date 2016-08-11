@@ -114,7 +114,7 @@ public class FontViewer extends JFrame {
     controlPanel.add(this.sizeLabel);
     
     // initial text (only the 1st line is fine but updated for clarity)
-    this.textLabel = new JLabel("Here is some sample text"); /* change to your desired text if necessary */
+    this.textLabel = new JLabel("Here is some sample text "); /* change to your desired text if necessary */
     String currentFont = (String) this.fontMenu.getSelectedItem();
     int size = this.sizeSlider.getValue();
     Font font = new Font(currentFont, this.fontType, size);
