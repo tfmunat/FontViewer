@@ -3,7 +3,8 @@
  * A program to test the fonts on a computer
  * 
  * Author: Tahmid Munat
- * contact@tahmidmunat.com
+ * tahmid.munat@columbia.edu
+ * tmunat@gm.slc.edu
  **************************************************
  **************************************************
  */
